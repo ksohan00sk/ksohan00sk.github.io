@@ -1,0 +1,90 @@
+body{
+	background-color: yellow;
+	font-family: helvatica;
+	font-weight: bold;
+	color: white;
+}
+
+.h2{
+	font-size: 18pt;
+	margin-bottom: 15px;
+}
+
+.tile{
+	background-color: rgb(150,150,150);
+	height: 140px;
+	width: 170px;
+	border: 9px solid cyan;
+	padding: 20px;
+	margin: 5px;
+	float: left;
+}
+.tile-list a{
+	color: white;
+	text-decoration: none;
+}
+ul.tile-list li{
+	margin-bottom: 5px;
+	margin-left: 10px;
+	list-style-type: disc;
+}
+ol.tile-list li{
+	margin-bottom: 5px;
+	margin-left: 10px;
+	list-style-type: decimal;
+}
+
+.green{
+	background-color: #13B2A3
+}
+.red{
+	background-color: #F16F51
+}
+.yellow
+{
+	background-color: #FDB45C
+	font-size: 20pt;
+}
+.lightgrey{
+ background-color: #F6F6F6
+}
+.city-image{
+background-image: url("holzv2_08.jpg");
+font-size: 20pt;
+font-color:white;
+}
+.event-hours{
+	font-size-adjust: 10pt;
+	font-style: italic;
+	text-align: right;
+	margin-right: 10px;
+
+}
+.event-date{
+	margin-top: 40px;
+}
+.event-day{
+	font-size: 55pt;
+}
+#main-container{
+	width: 900px;
+	margin: auto;
+	
+}
+
+#users-table{
+	margin: 10px auto;
+	font-weight: normal;
+	width: 100%;
+}
+
+#users-table th{
+	border-bottom: 1px solid#F6F6F6;
+	padding: 2px;
+	text-align: center;
+}
+#users-table td{
+	border-bottom: 1px solid#F6F6F6;
+	padding: 2px;
+	text-align: center;
+}
