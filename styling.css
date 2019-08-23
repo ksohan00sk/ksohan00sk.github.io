@@ -88,3 +88,26 @@ font-color:white;
 	padding: 2px;
 	text-align: center;
 }
+
+@media screen and (max-width:899px){
+	#main-container{
+	width:100%;
+	margin: auto;
+}
+    #users-table{
+	margin: 10px auto;
+	font-weight: normal;
+	width: 70%;   
+}
+    #users-table td{
+	border-bottom: 1px solid#F6F6F6;
+	padding: 2px;
+	text-align: center;
+	}
+	
+#users-table td{
+	border-bottom: 1px solid#F6F6F6;
+	padding: 2px;
+	text-align: center;
+}
+}
